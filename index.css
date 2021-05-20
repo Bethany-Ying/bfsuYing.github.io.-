@@ -1,0 +1,55 @@
+body {margin:0;
+}
+
+h1 {
+  color:whitesmoke;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 200px
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color:yellow;
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 100px
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: Cornsilk;
+  text-align: center;
+  font-size: 100px
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:red;
+}
+
+.active {
+  background-color: #4CAF50;
+}
